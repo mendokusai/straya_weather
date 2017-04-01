@@ -113,7 +113,7 @@ function colorHumid(humidString) {
   const humidity = Number.parseFloat(humidString);
   switch (true) {
     case (humidity > 90):
-      return humidString.bold.white.bgBlue;
+      return humidString.bold.black.bgCyan;
     case (humidity > 80):
       return humidString.bold.blue;
     case (humidity > 75):
