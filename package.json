@@ -1,0 +1,12 @@
+{
+  "name": "straya_weather",
+  "version": "0.1.0",
+  "description": " CLI Weather tool for Australian cities",
+  "main": "weather.js",
+  "scripts": {
+    "test": "test",
+    "start": "node weather"
+  },
+  "author": "ryan",
+  "license": "MIT"
+}
