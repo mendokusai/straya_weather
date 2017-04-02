@@ -1,4 +1,5 @@
 const parseAreas = require('./parseAreas');
+const handleSpecialNames = require('./handleSpecialNames');
 
 function processInput(input) {
   if (input) {
@@ -7,7 +8,7 @@ function processInput(input) {
       const locObj = {
           url: `http://www.bom.gov.au/${loc_data['area']}/observations/${loc_data['mapPage']}.shtml`,
           finder: `#t${loc_data['finder']}`,
-          town: loc_data['town'].replace(' ', '-'),
+          town: handleSpecialNames(input).replace(' ', '-'),
           index: loc_data['index']
       };
       return locObj;
