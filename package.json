@@ -4,10 +4,13 @@
   "description": " CLI Weather tool for Australian cities",
   "main": "weather.js",
   "scripts": {
-    "test": "test",
+    "test": "jest",
     "start": "node weather"
   },
   "repository": "https://github.com/mendokusai/straya_weather",
   "author": "ryan",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^19.0.2"
+  }
 }
