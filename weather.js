@@ -10,9 +10,9 @@ const AREAS = {
     'dover', 'dunalley', 'grove', 'kunanyi', 'maria island', 'orford', 'tasman island'
   ],
   'act': [
-    'canberra', 'braidwood', 'cabramurra', 'cooma', 'goulburn', 'montague island',
-    'moruya', 'mount ginini', 'narooma', 'nowra', 'perisher valley', 'thredbo',
-    'tuggeranong', 'ulladulla', 'yass'
+    'canberra', 'batemans bay', 'braidwood', 'cabramurra', 'cooma', 'goulburn airport', 'montague island',
+    'moruya airport', 'mount ginini', 'narooma', 'nowra', 'perisher valley', 'thredbo top station',
+    'tuggeranong', 'ulladulla'
   ],
   'nsw': [
     'sydney', 'sydney airport', 'sydney harbour', 'olympic park', 'badgerys creek', 'bankstown', 'bellambi',

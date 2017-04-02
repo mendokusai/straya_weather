@@ -7,6 +7,7 @@
     "test": "test",
     "start": "node weather"
   },
+  "repository": "https://github.com/mendokusai/straya_weather",
   "author": "ryan",
   "license": "MIT"
 }
