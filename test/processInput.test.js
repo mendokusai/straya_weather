@@ -11,6 +11,17 @@ describe('when a valid town is input', () => {
    });
 });
 
+describe('for sydney input', () => {
+   test('returns sydney observatory hill object', () => {
+     expect(processInput('sydney')).toEqual({
+       "finder": "#tSYDNEY",
+       "index": 1,
+       "town": "sydney-observatory-hill",
+       "url": "http://www.bom.gov.au/nsw/observations/sydney.shtml"
+     });
+   })
+});
+
 describe('without an input', () => {
   test('returns an error', () => {
     expect(processInput()).toThrow(TypeError);
