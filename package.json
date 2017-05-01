@@ -12,5 +12,9 @@
   "license": "MIT",
   "devDependencies": {
     "jest": "^19.0.2"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "osmosis": "^1.1.4"
   }
 }
